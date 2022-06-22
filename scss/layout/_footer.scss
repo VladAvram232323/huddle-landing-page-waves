@@ -1,0 +1,92 @@
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+
+  &__bg-top {
+    background-image: url(/images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24rem;
+    width: 100%;
+    transform: translateY(0.5%);
+  }
+}
+
+.wrapper-btm {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+
+  &__logo {
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  &__desc {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.contact {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact__form {
+  h3 {
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    transition: all 0.25s;
+  }
+
+  input:hover {
+    cursor: pointer;
+  }
+
+  button {
+    color: white;
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.25s;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 143, 214);
+  }
+}
+
+.social {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 5rem;
+
+  a {
+    color: white;
+    transition: all 0.25s;
+
+    img {
+      height: 3rem;
+    }
+  }
+
+  a:hover {
+    background-color: hsl(190, 100%, 66%);
+  }
+}
